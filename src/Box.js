@@ -7,23 +7,17 @@ export default class Box extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {visibility: "hidden"};
-        this.toggleAnswer = this.toggleAnswer.bind(this);
+        this.state = {color: green};
+        this.changeColor = this.changeColor.bind(this);
     }
 
-    toggleAnswer() {
-        const makeVisible = this.state.visibility == "visible" ? "hidden" : "visible";
-        this.setState({visibility: makeVisible});
-    }
-
+    changeColor() {
+        const newColor = this.state.color == green ? red : green;
+        this.setState({color: newColor});
+        }
+    
     render() {
-        return (
-        <div>
-            <p>What is one plus one?</p>
-            <button onClick={this.toggleAnswer}>Show and Hide Answer</button>
-            <p style={{visibility: this.state.visibility}}>Two</p>
-        </div>
-        );
+        return <div style={{background: this.state.color}} onClick={this.changeColor}></div>;
     }
     
 }
