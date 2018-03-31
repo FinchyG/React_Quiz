@@ -53,6 +53,7 @@ button {
   background: rgb(103, 146, 163);
   background: rgba(203, 146, 163, 0.5);
   box-shadow: 0.2em 0.2em 0.2em #000000;
+  width: 8em;
   margin: 0.2em;
 }
 
