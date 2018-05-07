@@ -3,7 +3,7 @@ body {
   font-weight: bold;
 }
   
-.Wide-Div {
+.wideDiv {
   width: 75%;
   margin: 3% auto;
   background: rgb(215, 233, 54);
@@ -13,7 +13,7 @@ body {
   -moz-box-shadow: 1em 1em 1em #000000;
 }
 
-.Narrow-Div {
+.narrowDiv {
   width: 50%;
   margin: auto;
   padding: 1em 0;

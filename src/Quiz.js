@@ -1,5 +1,5 @@
 import React from 'react';
-import { TitleHeader } from './TitleHeader';
+import { TitleHeader }   from './TitleHeader';
 import QuestionComponent from './QuestionComponent';
 
 export default class Quiz extends React.Component {
@@ -12,11 +12,11 @@ export default class Quiz extends React.Component {
             
               <TitleHeader />
             
-              <div className="Wide-Div">
+              <div className="wideDiv">
             
                 <h4>Questions</h4>
             
-                <div className="Narrow-Div">
+                <div className="narrowDiv">
             
                   <QuestionComponent
                       question = "1: What is the capital city of Spain?"
