@@ -1,6 +1,7 @@
 import React from 'react';
 import { TitleHeader }   from './TitleHeader';
 import QuestionComponent from './QuestionComponent';
+import './Quiz.css';
 
 export default class Quiz extends React.Component {
     
