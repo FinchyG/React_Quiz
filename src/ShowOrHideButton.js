@@ -4,10 +4,8 @@ export const ShowOrHideButton = (props) => {
 
     return (
         
-        <div>
-          <button onClick={props.onClick}>{props.buttonLabel}</button>
-        </div>
-      
+        <button onClick={props.onClick}>{props.buttonLabel}</button>
+          
     );
 
 }
